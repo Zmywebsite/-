@@ -1,0 +1,182 @@
+html{
+    font-size:1px;
+}
+header{
+    width:100%;
+    background:#333;
+    z-index:5000;
+}
+header .header{
+    max-width:1000px;
+    padding:0 30px;
+    margin:0 auto;
+}
+header .header h1{
+    display: block;
+    float:left;
+    width:18%;
+    margin:8px 0;
+}
+header .header h1 img{
+    display: block;
+    width:100%;
+}
+header .header .uafaker{
+    float:right;
+}
+header .header .uafaker menu{
+    display: flex;
+}
+header .header .uafaker menu li a{
+    color:#fff;
+    padding:33px 20px;
+    display: block;
+    font-size:12rem;
+}
+header .header .uafaker menu li:nth-of-type(4) a{
+    background:#5C5C5C;
+}
+header .header .uafaker menu li a:hover{
+    background:#5C5C5C;
+}
+header .header .gewara{
+    float:left;
+    width:81.6%;
+    display:none;/**/
+}
+
+header .header .gewara h2{
+    color:#fff;
+    font-size:40rem;
+    height:80px;
+    margin:0 auto;
+    line-height:80px;
+    width:72%;
+    float:left;
+    font-weight:normal;
+    text-align: center;
+}
+header .header .gewara .clickon{
+    background:url("../../images/2018-12-03_161746.gif") no-repeat 80% 50%;
+    float:right;
+    text-indent:17px;
+    height:40px;
+    margin-top:20px;
+    color:#fff;
+    border:1px solid #666666;
+    border-radius:6px;
+    font-size:16rem;
+    cursor:pointer;
+    line-height:40px;
+    width:118px;
+    margin-right:6.2%;
+    position:relative;
+}
+header .header .gewara .clickon:hover{
+    background:#666 url("../../images/2018-12-03_161746.gif") no-repeat 80% 50%;
+}
+header .xiahua{
+    display:none;
+    width:100%;
+    border-top:5px solid #CCCCCC;
+    border-bottom:5px solid #CCCCCC;
+    background:#333333;
+}
+header .xiahua menu{
+    display: flex;
+    flex-flow:wrap;
+}
+header .xiahua menu li{
+    width:11%;
+    margin-right:9px;
+}
+header .xiahua menu li a{
+    color:#fff;
+    font-size:17rem;
+    padding:6%;
+    display: block;
+    text-align:center;
+}
+header .xiahua menu li:nth-of-type(4) a{
+    color:#FA9634;
+    background:#5C5C5C;
+}
+header .xiahua menu li a:hover{
+    color:#FA9634;
+    background:#5C5C5C;
+}
+@media screen and (min-width:1000px){
+    header{
+        position:fixed;
+    }
+}
+@media screen and (max-width:1000px){
+    header .header .uafaker{
+        display: none;
+    }
+    header .header .gewara{
+        display: block;
+    }
+    /*.bx-wrapper .bx-controls-direction a{
+        display:none;
+    }*/
+    /*.bx-wrapper .bx-pager{
+        display:none;
+    }*/
+}
+@media screen and (max-width:760px){
+    header .xiahua menu li{
+        width:23%;
+    }
+    header .header .gewara h2{
+        font-size:30rem;
+        height:55px;
+        line-height:55px;
+        width:53%;
+    }
+    header .header .gewara .clickon{
+        margin-top:9px;
+    }
+}
+@media screen and (max-width:478px){
+    header .header .gewara{
+        width:66.6%;
+    }
+    header .header .gewara h2{
+        font-size:16rem;
+        width:70%;
+    }
+    header .header .gewara .clickon{
+        width:15%;
+        background-position:50% 50%;
+    }
+    header .header .gewara .clickon p{
+        display:none;
+    }
+    header .header h1{
+        width:28%;
+    }
+    header .xiahua menu li{
+        width:45%;
+    }
+}
+@media screen and (max-width:776px){
+    header .header .gewara menu li a{
+        padding:5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

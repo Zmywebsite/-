@@ -1,0 +1,98 @@
+html{
+    font-size:1px;
+}
+body{
+    background:#F2F2F2;
+}
+section{
+    max-width:970px;
+    padding:80px 15px 0 15px;
+    margin:0 auto;
+}
+section h2{
+    font-size:30rem;
+    margin-top:47px;
+    text-align:center;
+    color: #6B7381;
+}
+section h4{
+    font-size:25rem;
+    color:#888888;
+    margin-top:30px;
+    text-align:center;
+}
+section nav{
+    margin-top:62px;
+}
+section nav ul{
+    display: flex;
+    flex-flow:wrap;
+}
+section nav ul li{
+    width:22%;
+    height:735px;
+    margin-right:32px;
+    margin-top:0;
+}
+section nav ul li:nth-of-type(4n){
+    margin:0;
+}
+section nav ul li>img{
+    display:block;
+    width:100%;
+}
+section nav ul li article img{
+    display: none;
+}
+section nav ul li article p,section nav ul li article span{
+    color:#888888;
+    line-height:25px;
+    font-size:14rem;
+}
+section nav ul li article h5{
+    color:#888888;
+    font-size:18rem;
+}
+section nav ul li article span{
+    display:block;
+}
+section p{
+    text-indent:28px;
+}
+@media screen and (max-width: 1000px){
+    section{
+        padding-top:0;
+    }
+    section nav ul li{
+        width:30%;
+        height:745px;
+    }
+    section nav ul li:nth-of-type(4n){
+        margin-right:32px;
+    }
+    section nav ul li:nth-of-type(3n){
+        margin:0;
+    }
+}
+@media screen and (max-width: 765px){
+    section nav ul li{
+        height:370px;
+        width:28%;
+    }
+    section nav ul li article{
+        display:none;
+    }
+}
+@media screen and (max-width: 480px){
+    section nav ul li:nth-of-type(3n){
+        margin-right:32px;
+    }
+
+    section nav ul li:nth-of-type(2n){
+        margin:0;
+    }
+    section nav ul li{
+        width:44%;
+    }
+}
+

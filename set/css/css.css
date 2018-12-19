@@ -1,0 +1,217 @@
+/*max 最大 / min最小*/
+html{
+    font-size:1px;
+}
+section{
+    max-width:1027px;
+    padding:120px 15px 80px 15px;
+    margin:0 auto;
+    display:flex;
+    flex-flow:wrap;
+}
+section .left{
+    width:31%;
+}
+section .left ul{
+    border-right:1px solid #bababa;
+
+}
+section .left ul li a{
+    display: block;
+    margin:0 17px 4px 0;
+}
+section .left ul li{
+    height:80px;
+}
+section .left ul li a h2{
+    font-size:22rem;
+    color:#222222;
+    height:75px;
+    float:left;
+    width:62%;
+    line-height:75px;
+}
+
+section .left ul li:nth-of-type(1) a{
+    margin:0 17px 4px 0;
+}
+
+section .left ul li a i{
+    width:38%;
+    height:75px;
+    display: block;
+    float:left;
+}
+/*第一个*/
+section .left ul li:nth-of-type(1).normal a i{
+    background:url("../images/img/left_link_02.jpg")no-repeat 50% 50%;
+}
+section .left ul li:nth-of-type(1).active a i,section .left ul li:nth-of-type(1):hover a i{
+    background:url("../images/hover/left_link_03.jpg")no-repeat 50% 50%;
+}
+section .left ul li:nth-of-type(1).active a,section .left ul li:nth-of-type(1):hover a{
+    border-bottom:4px solid #fa9634;
+}
+
+/*第二个*/
+section .left ul li:nth-of-type(2).normal a i{
+    background:url("../images/img/left_link_06.jpg")no-repeat 50% 50%;
+}
+section .left ul li:nth-of-type(2).active a i,section .left ul li:nth-of-type(2):hover a i{
+    background:url("../images/hover/left_link_07.jpg")no-repeat 50% 50%;
+}
+
+section .left ul li:nth-of-type(2).active a,section .left ul li:nth-of-type(2):hover a{
+    border-bottom:4px solid #fa9634;
+}
+
+/*第三个*/
+section .left ul li:nth-of-type(3).normal a i{
+    background:url("../images/img/left_link_08.jpg")no-repeat 50% 50%;
+}
+section .left ul li:nth-of-type(3).active a i,section .left ul li:nth-of-type(3):hover a i{
+    background:url("../images/hover/left_link_09.jpg")no-repeat 50% 50%;
+}
+
+section .left ul li:nth-of-type(3).active a,section .left ul li:nth-of-type(3):hover a{
+    border-bottom:4px solid #fa9634;
+}
+
+
+/*第四个*/
+section .left ul li:nth-of-type(4).normal a i{
+    background:url("../images/img/left_link_10.jpg")no-repeat 50% 50%;
+}
+section .left ul li:nth-of-type(4).active a i,section .left ul li:nth-of-type(4):hover a i{
+    background:url("../images/hover/left_link_11.jpg")no-repeat 50% 50%;
+}
+
+section .left ul li:nth-of-type(4).active a,section .left ul li:nth-of-type(4):hover a{
+    border-bottom:4px solid #fa9634;
+}
+
+
+/*第五个*/
+section .left ul li:nth-of-type(5).normal a i{
+    background:url("../images/img/left_link_12.jpg")no-repeat 50% 50%;
+}
+section .left ul li:nth-of-type(5).active a i,section .left ul li:nth-of-type(5):hover a i{
+    background:url("../images/hover/left_link_13.jpg")no-repeat 50% 50%;
+}
+
+section .left ul li:nth-of-type(5).active a,section .left ul li:nth-of-type(5):hover a{
+    border-bottom:4px solid #fa9634;
+}
+
+/*第六个*/
+section .left ul li:nth-of-type(6).normal a i{
+    background:url("../images/img/left_link_14.jpg")no-repeat 50% 50%;
+}
+section .left ul li:nth-of-type(6).active a i,section .left ul li:nth-of-type(6):hover a i{
+    background:url("../images/hover/left_link_15.jpg")no-repeat 50% 50%;
+}
+
+section .left ul li:nth-of-type(6).active a,section .left ul li:nth-of-type(6):hover a{
+    border-bottom:4px solid #fa9634;
+}
+
+
+/*第七个*/
+section .left ul li:nth-of-type(7).normal a i{
+    background:url("../images/img/left_link_16.jpg")no-repeat 50% 50%;
+}
+section .left ul li:nth-of-type(7).active a i,section .left ul li:nth-of-type(7):hover a i{
+    background:url("../images/hover/left_link_17.jpg")no-repeat 50% 50%;
+}
+
+section .left ul li:nth-of-type(7).active a,section .left ul li:nth-of-type(7):hover a{
+    border-bottom:4px solid #fa9634;
+}
+
+
+/*第八个*/
+section .left ul li:nth-of-type(8).normal a i{
+    background:url("../images/img/left_link_18.jpg")no-repeat 50% 50%;
+}
+section .left ul li:nth-of-type(8).active a i,section .left ul li:nth-of-type(8):hover a i{
+    background:url("../images/hover/left_link_19.jpg")no-repeat 50% 50%;
+}
+
+section .left ul li:nth-of-type(8).active a,section .left ul li:nth-of-type(8):hover a{
+    border-bottom:4px solid #fa9634;
+}
+
+
+
+
+
+
+
+
+/**********************以上是左边*************************************/
+section .right{
+    width:60%;
+    padding-left:50px;
+}
+section .right p{
+    font-size:15rem;
+    line-height:30px;
+    color:#000;/*33*/
+    /*text-indent:33px;*/
+    margin:23px 0 23px 0;
+}
+section .right h3{
+    color:#fa9634;
+    font-size:18px;
+    margin-top: 50px;
+}
+section .right img{
+    display: block;
+    width:100%;
+}
+.feature{
+    display: none;
+}
+.active{
+
+}
+@media screen and (max-width: 1000px){
+	section{
+        padding-top:100px;
+    }
+}
+@media screen and (max-width: 770px){
+    section{
+        padding-top:0;
+    }
+    section .left{
+        width:100%;
+    }
+    section .left ul{
+        border:0;
+    }
+    section .left ul li{
+        width:50%;
+        height:155px;
+        float:left;
+    }
+    section .left ul li a i{
+        float:none;/*4654654654654654654654654654654654654654654654654654654654654654654654654654654654654654654*/
+        margin:0 auto;
+    }
+    section .left ul li a h2{
+        text-align: center;
+        width:100%;
+    }
+    section .right{
+        width:100%;
+        padding:0;
+    }
+}
+@media screen and (max-width: 480px){
+    section .left ul li a h2{
+        font-size:16rem;
+    }
+}
+
+

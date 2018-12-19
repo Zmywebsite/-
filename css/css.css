@@ -1,0 +1,537 @@
+/*max 最大 / min最小*/
+html{
+    font-size:1px;
+}
+/*****************************************************以上是头部***************************************************************/
+.serve{
+    max-width:1000px;
+    margin:45px auto 0 auto;
+    padding:0 30px 20px;
+}
+.meiti .m{
+	padding-top:81px;
+}
+
+.serve h2{
+    color:#000;
+    font-size:36rem;
+}
+.serve nav ul{
+    display: flex;
+    margin-top:35px;
+}
+.serve nav ul li{/*88px 203px*/
+    width:49.02%;
+
+}
+.serve nav ul li a{
+    display: block;/*    transition:all .3s ease-in;*/
+    padding:0 0 10% 5%;
+    margin-bottom:5px;
+}
+.serve nav ul li a:hover{
+    border-bottom:5px solid #FA9634;
+    margin:0;
+}
+.serve nav ul li a .img{
+    width:30%;
+    float:left;
+    height:51px;
+    margin-right:9%;
+}
+.serve nav ul li:nth-of-type(1) a .img{
+    background:url("../images/service_1_1.jpg") no-repeat 50%50%;
+}
+.serve nav ul li:nth-of-type(2) a .img{
+    background:url(../images/service_2_1.jpg) no-repeat 50%50%;
+}
+.serve nav ul li:nth-of-type(3) a .img{
+    background:url("../images/service_3_1.jpg") no-repeat 50%50%;
+}
+.serve nav ul li:nth-of-type(4) a .img{
+    background:url("../images/service_4_1.jpg") no-repeat 50%50%;
+}
+.serve nav ul li:nth-of-type(1)  a:hover .img{
+    background:url(../images/service_1_2.jpg) no-repeat 50%50%;
+}
+.serve nav ul li:nth-of-type(2)  a:hover .img{
+    background:url(../images/service_2_2.jpg) no-repeat 50%50%;
+}
+.serve nav ul li:nth-of-type(3) a:hover .img{
+    background:url(../images/service_3_2.jpg) no-repeat 50%50%;
+}
+.serve nav ul li:nth-of-type(4)  a:hover .img{
+    background:url(../images/service_4_2.jpg) no-repeat 50%50%;
+}
+.serve nav ul li a p{
+    color:#222222;
+    font-size:16rem;
+    display: block;
+    line-height:25px;
+}
+.serve nav ul li a>span{
+    color:#888888;
+    display: block;
+    margin-top:14px;
+    font-size:12rem;
+}
+@media screen and (max-width: 760px){
+    .serve nav ul li a>span{
+        display:none;
+    }
+    .serve nav ul li a p span{
+        display:none;
+    }
+    .serve nav ul li a .img{
+        float: none;
+        margin:0 auto;
+        width:100%;
+    }
+    .serve nav ul li a p{
+        float:none;
+        text-align:center;
+    }
+}
+@media screen and (min-width:555px) {
+    header .header .gewara .clickon {
+    	width:111px;
+    }
+}
+@media screen and (min-width:497px) {
+    header .header .gewara .clickon {
+    	width:99px;
+    }
+    header .header .gewara .clickon p{
+    	font-size:11px;
+    }
+}
+@media screen and (min-width:488px) {
+    header .header .gewara .clickon {
+    	width:99px;
+    }
+    header .header .gewara .clickon p{
+    	font-size:11px;
+    }
+}
+@media screen and (min-width:480px) {
+    header .header .gewara .clickon {
+    	width:99px;
+    }
+    header .header .gewara .clickon p{
+    	font-size:11px;
+    }
+}
+@media screen and (min-width:479px) {
+    header .header .gewara .clickon {
+    	width:99px;
+    }
+    header .header .gewara .clickon p{
+    	font-size:11px;
+    }
+}
+/**************************************************以上是学院服务********************************************************************/
+.curriculum{
+    max-width:1000px;
+    margin:0 auto;
+    padding:0 30px;
+}
+.curriculum h2{
+    color:#000;
+    font-size:36rem;
+    margin-bottom:38px;
+}
+.curriculum ul{
+    display:flex;
+    flex-flow:wrap;
+}
+.curriculum ul li{
+    width:33%;
+    border:1px solid #DEDEDE;
+}
+.curriculum ul li a{
+    display: block;
+    position:relative;
+    height:100%;
+}
+.curriculum ul li a img{
+    display: block;
+    padding:20px;
+    margin:0 auto;
+}
+.curriculum ul li a>h3{
+    color:#000;
+    margin-bottom:22px;
+    text-align:center;
+    font-size:22rem;
+    font-weight: normal;
+}
+.curriculum ul li a div{
+    position:absolute;
+    top:0;
+    left:0;
+    background:#90C166;
+    height:100%;
+    box-sizing:border-box;
+    opacity:0;
+    padding:35px 20px 20px 40px;
+    transition:all .5s ease-in;
+}
+.curriculum ul li a:hover div{
+    opacity:1;
+}
+.curriculum ul li a div h3{
+    font-size:25rem;
+    color:#fff;
+    padding-bottom:8px;
+}
+.curriculum ul li a div p{
+    font-size:14rem;
+    line-height:23px;
+    color:#fff;
+}
+@media screen and (max-width:1000px){
+    .curriculum ul li a div{
+        display: none;
+    }
+    .meiti .m{
+    	padding:0;
+    }
+}
+@media screen and (max-width: 760px){/*width:50%;*/
+    .curriculum ul li a img{
+        width:50%;
+    }
+    .curriculum ul li{
+        border:none;
+    }
+}
+@media screen and (max-width: 480px){
+    .curriculum ul li{
+        width:50%;
+    }
+}
+/***********************************************以上是课程设置*********************************************************/
+.mien{
+    max-width:1000px;
+    margin:47px auto;
+    position:relative;
+    padding:0 30px;
+}
+.mien h2{
+    color:#000;
+    font-size:36rem;
+    margin-bottom:38px;
+}
+.mien h2 a{
+    font-size:12rem;
+    color:#FC9777;
+    display: block;
+    float: right;
+}
+.mien ul{
+    display:flex;
+    flex-flow:wrap;
+}
+.mien ul li{
+    width:28%;
+    margin-right:5%;
+}
+.mien ul li a:nth-of-type(2){
+    display:block;
+    margin-top:30px;
+    margin-bottom:18px;
+    font-size:19rem;
+    transition:all .3s ease-in;
+    color:#333333;
+}
+.mien ul li a:hover{
+    color:#DF8934;
+}
+.mien ul li p{
+    font-size:15rem;
+    color:#888888;
+    margin-bottom:40px;
+}
+.mien ul li a img{
+    display:block;
+    width:100%;
+    margin:0 auto;
+}
+@media screen and (max-width: 760px){
+    .mien ul li:nth-of-type(5),.mien ul li:nth-of-type(6){
+        display: none;
+    }
+    .mien ul li{
+        width:45%;
+    }
+    .mien .dianji{
+        display: block;
+    }
+    .mien ul:nth-of-type(2){
+        display:none;
+    }
+}
+@media screen and (max-width: 480px){
+    .mien ul li p{
+        display:none;
+    }
+}
+/**********************************************以上是校园风采*********************************************************/
+.production{
+    max-width:1000px;
+    margin:47px auto;
+    position:relative;
+    padding:0 30px;
+}
+.production h2{
+    color:#000;
+    font-size:36rem;
+    margin-bottom:38px;
+}
+.production ul{
+    display:flex;
+    flex-flow:wrap;
+}
+.production ul li{
+    width:20%;
+}
+.production ul li a{
+    width:100%;
+    display: block;
+    position:relative;
+}
+.production ul li a img{
+    display: block;
+    width:100%;
+}
+.production ul li a div{
+    position:absolute;
+    width:100%;
+    background: rgba(243, 129, 28, 0.91);
+    top:0;
+    left:0;
+    height:100%;
+    opacity:0;
+    transition:all .3s ease-in;
+}
+.production ul li a:hover div{
+    opacity:1;
+}
+.production ul li a div h4{
+    color:#fff;
+    margin-top:40px;
+    font-size:23rem;
+    text-align:center;
+}
+.production ul li a div p{
+    color:#fff;
+    font-size:18rem;
+    margin-top:24px;
+    text-align: center;
+}
+.production ul li a div p:nth-of-type(2){
+    font-size:20rem;
+}
+@media screen and (max-width: 1000px){
+    .production ul li a div{
+        display:none;
+    }
+}
+@media screen and (max-width: 760px){
+    .production ul li{
+        display:none;
+        padding:5px;
+        width:22%;
+    }
+    .production .gengduo-2{
+        display:block;
+    }
+    .production ul li:nth-of-type(1),.production ul li:nth-of-type(2),.production ul li:nth-of-type(3),.production ul li:nth-of-type(4),
+    .production ul li:nth-of-type(5),.production ul li:nth-of-type(6),.production ul li:nth-of-type(7),.production ul li:nth-of-type(8)
+    {
+        display: block;
+    }
+}
+@media screen and (max-width: 480px){
+    .production ul li{
+        width:27%;
+    }
+    .production ul li:nth-of-type(9){
+        display:block;
+    }
+}
+/************************************************以上是学生作品*****************************************************/
+.celebrity{
+    max-width:1000px;
+    margin:47px auto;
+    position:relative;
+    padding:20px 30px 0 30px;
+}
+.celebrity h2{
+    color:#000;
+    font-size:36rem;
+    margin-bottom:38px;
+}
+.celebrity ul{
+    display:flex;
+    flex-flow:wrap;
+}
+.celebrity ul li{
+    width:23%;
+    padding:5px;
+}
+.celebrity ul li a{
+    display: block;
+    width:100%;
+    position:relative;
+}
+.celebrity ul li a img{
+    display: block;
+    width:100%;
+}
+.celebrity ul li a div{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    opacity:0;
+    background:#96C46E;
+    transition:all .3s ease-in;
+}
+.celebrity ul li a:hover div{
+    opacity:1;
+}
+.celebrity ul li a div h4{
+    color:#fff;
+    font-size:25rem;
+    font-weight:normal;
+    text-align:center;
+}
+.celebrity ul li a div p{
+    text-align:center;
+    color:#fff;
+}
+.celebrity ul li a div p:nth-of-type(1){
+    font-size:18rem;
+    margin-top: 34px;
+    margin-bottom: 25px;
+}
+.celebrity ul li a div p:nth-of-type(2){
+    font-size:17rem;
+    margin-bottom:13px;
+}
+@media screen and (max-width: 1000px){
+    .celebrity ul li a div{
+        display:none;
+    }
+}
+@media screen and (max-width: 760px){
+    .celebrity ul li {
+        display:none;
+        padding:5px;
+        width:30%;
+    }
+    .celebrity  .po{
+        display:block;
+    }
+    .celebrity ul li:nth-of-type(1),.celebrity ul li:nth-of-type(2),.celebrity ul li:nth-of-type(3),.celebrity ul li:nth-of-type(4),
+    .celebrity ul li:nth-of-type(5),.celebrity ul li:nth-of-type(6)
+    {
+        display: block;
+    }
+}
+@media screen and (max-width: 480px){
+    .celebrity ul li{
+        width:44%;
+    }
+}
+/**********************************************以上是明星学子******************************************************************/
+.getajob{
+    max-width:1000px;
+    margin:47px auto;
+    position:relative;
+    padding:20px 30px 0 30px;
+}
+.getajob h2{
+    color:#000;
+    font-size:36rem;
+    margin-bottom:38px;
+}
+.getajob ul{
+    display:flex;
+    flex-flow:wrap;
+}
+.getajob ul li{
+    width:15%;
+    margin-bottom:10px;
+    margin-right:1%;
+}
+.getajob ul li a{
+    display: block;
+    width:100%;
+}
+.getajob ul li a img{
+    display:block;
+    width:100%;
+}
+@media screen and (max-width: 760px){
+    .getajob ul li{
+        width:24%;
+        display:none;
+    }
+    .getajob ul li:nth-of-type(1),.getajob ul li:nth-of-type(2),.getajob ul li:nth-of-type(3),
+    .getajob ul li:nth-of-type(4),.getajob ul li:nth-of-type(5),.getajob ul li:nth-of-type(6),
+    .getajob ul li:nth-of-type(7),.getajob ul li:nth-of-type(8)
+    {
+        display: block;
+    }
+    .getajob .gengduo-4{
+        display: block;
+    }
+}
+/****************************************以上是就业单位************************************************************/
+.gengduo{
+    width:110px;
+    text-align:center;
+    line-height:35px;
+    margin-left:-55px;
+    position:absolute;
+    top:100%;
+    left:50%;
+    height:35px;
+    cursor:pointer;
+    color:#fff;
+    font-size:15rem;
+    display:none;
+    background:#FA9634;
+    border-radius:6px;
+}
+#topcontrol{
+    display:none;
+}
+@media screen and (max-width: 1281px){
+    #topcontrol{
+        display: block;
+    }
+}
+@media screen and (max-width: 760px){
+    .gengduo{
+        display: block;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+a[name="production"]{
+    height:0;
+    line-height:0;
+    overflow:hidden;
+}

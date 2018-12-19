@@ -1,0 +1,65 @@
+/*max 最大 / min最小*/
+html{
+    font-size:1px;
+}
+section{
+    max-width:1027px;
+    padding:120px 15px 80px 15px;
+    margin:0 auto;
+    display:flex;
+    flex-flow:wrap;
+}
+section h3 {
+    font-size:18rem;
+    color:#fa9634;
+    display: block;
+    line-height:50px;
+    width:100%;
+    text-align:center;
+}
+section p{
+    width: 100%;
+    display:flex;
+    font-size:16rem;
+    text-align:center;
+    justify-content:center;
+    flex-flow:wrap;
+}
+section p span{
+    font-size:20rem;
+    display: block;
+    text-align: center;
+}
+section img{
+    display:block;
+    width:80%;
+    margin:32px auto 0 auto;
+}
+section p:nth-of-type(2) span,section p:nth-of-type(3) span{
+   margin-right:40px;
+    font-weight:bold;
+}
+@media screen and (max-width: 1000px){
+	section{
+        padding-top:40px;
+    }
+}
+@media screen and (max-width: 510px){
+    section p:nth-of-type(2) span:nth-of-type(3){
+        margin:0;
+    }
+    section p:nth-of-type(3) span:nth-of-type(3){
+        margin:0;
+    }
+}
+@media screen and (max-width: 366px){
+    section p{
+        display: block;
+    }
+    section p:nth-of-type(2) span,section p:nth-of-type(3) span{
+        margin:0;
+    }
+}
+
+
+
